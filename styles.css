@@ -213,6 +213,7 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  vertical-align: text-bottom;
 }
 .monedas-table--container .up {
   display: inline-block;
@@ -416,3 +417,116 @@ main {
 }
 
 /* ***** main PLANES******** */
+.main-plans-container {
+  width: 100%;
+  min-width: 320;
+  height: auto;
+  padding: 0 15px 70px;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+.plans--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  padding: 0 auto;
+  margin-bottom: 50px;
+}
+
+.plans--title h2 {
+  padding-top: 40px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: #201e1c;
+}
+.main-plans-container .plans--title p {
+  margin-top: 24px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+}
+.plans-container--slider {
+}
+.plans-container--card {
+  position: relative;
+  width: 80px;
+  min-width: 230px;
+  max-width: 300px;
+  height: auto;
+  margin: 50px auto 0;
+  padding: 0 35px;
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.recommended {
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 31px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+  padding: 8px;
+
+  border-radius: 5px;
+  background-color: var(--bitcoin-orange);
+  color: var(--white);
+}
+.plan-card--title {
+  padding-top: 50px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: black;
+}
+.plan-card--price {
+  margin-top: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 6.2rem;
+  color: var(--black);
+}
+.plan-card--price span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+  vertical-align: text-top;
+  margin-right: 5px;
+}
+.plan-card--saving {
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  color: #757575;
+}
+.plan-card--ca {
+  width: 140px;
+  height: 45px;
+  margin: 20px auto 40px;
+  padding: 10px auto;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  border-radius: 5px;
+  border: 2px solid var(--bitcoin-orange);
+  background-color: var(--off-white);
+  color: var(--black);
+}
+.plan-card--ca span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background-image: url(assets/icons/arrow-right.svg);
+  vertical-align: text-bottom;
+}
