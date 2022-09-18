@@ -1,0 +1,22 @@
+/* .main-product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  width: 930px;
+  margin: 0 auto;
+}
+.main-exchange-container {
+  justify-content: center;
+  align-items: center;
+} */
+@media screen and (min-width: 768px) {
+  .product-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+  }
+  .plans-container-slider {
+    justify-content: center;
+  }
+}
